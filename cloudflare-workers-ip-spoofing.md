@@ -31,7 +31,7 @@ The outgoing request is made by either Google Compute Engine (dev) or Cloudflare
 
 ### The Bug
 
-While experimenting with sample code from the documentation, I encountered a sample like the following:
+While experimenting with sample code from the documentation, I encountered a smple like this:
 
 ```javascript
 async function handleRequest(request) {
