@@ -2,7 +2,7 @@
 
 ### Cloudflare
 
-Cloudflare is a distributed CDN and WAF. Customers configure their servers to only accept connections from Cloudflare servers and then change their DNS to point to Cloudflare's edge servers. Cloudflare proxies requests to the customer's backend servers, adding the [CF-Connecting-IP](https://support.cloudflare.com/hc/en-us/articles/200170986-How-does-Cloudflare-handle-HTTP-Request-headers-) to identify the original visitor.
+Cloudflare is a distributed CDN and WAF. Customers configure their servers to only accept connections from Cloudflare servers and then change their DNS to point to Cloudflare's edge servers. Cloudflare proxies requests to the customer's backend servers, adding the [CF-Connecting-IP](https://support.cloudflare.com/hc/en-us/articles/200170986-How-does-Cloudflare-handle-HTTP-Request-headers-) header to identify the original visitor.
 
 ### Cloudflare workers
 
