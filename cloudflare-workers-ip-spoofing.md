@@ -49,7 +49,7 @@ This behavior held even when my worker code modified query and POST parameters, 
 
 ### Impact
 
-Normally, when you visit a site protected by Cloudflare and send a request containing a 'CF-Connecting-IP' header, Cloudflare drops the header and replaces it with your actual IP before sending it to the origin server.
+Normally, when you visit a site protected by Cloudflare and send a request containing a `CF-Connecting-IP` header, Cloudflare drops the header and replaces it with your actual IP before sending it to the origin server.
 
 However, when a Cloudflare worker makes a request to a site protected by Cloudflare, Cloudflare trusts the value of the header provided by the worker and passes it on to the origin server.
 
