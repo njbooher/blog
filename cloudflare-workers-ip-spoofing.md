@@ -63,4 +63,4 @@ Some sites may make additional functionality available to users from specific IP
 * June 17, 2020 10:04 AM - Acknowledged by Cloudflare
 * June 19, 2020 - Bounty received from Cloudflare
 * June 24, 2020 - Fix committed by Cloudflare and deployed globally
-* January 5, 2020 - Published with approval of Cloudflare
+* January 5, 2021 - Published with approval of Cloudflare
